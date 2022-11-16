@@ -222,7 +222,8 @@ int main(int argc, char const *argv[])
         sphere.printSphere();
         break;
     case 5:
-        cout << "";
+        cout << "Exit";
+        exit(0);
         break;
     
     
@@ -233,5 +234,6 @@ int main(int argc, char const *argv[])
 
 
     return 0;
+    //
 }
 
